@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200;1,500&display=swap');
+
+/*Normalização e Correção*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Poppins', 'Times New Roman', Times, serif ;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+}
+
+/*Formatação Header*/
+
+header{
+    background-color: black;
+    position: sticky; top: 0;
+    border-bottom: solid rgb(111, 18, 173) 5px;
+    box-shadow: 0px 1px 15px rgb(111, 18, 173);
+    z-index: 1;
+}
+
+#logo{
+    width: 110px;
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-bottom: 5px;
+}
+
+ul{
+    position: fixed;
+    top: 21px;
+    right: 55px;
+    display: inline;
+}
+
+li{
+    display: inline-block;
+    padding: 15px 7px;
+}
+
+a{
+    padding: 8px 22.5px;
+    border: solid #6f12ad 3px;
+    border-radius: 10px;
+    font-size: 1.6em;
+    color: white;
+}
+
+.menu_Item:hover{
+    color: black;
+    background-color: #6f12ad;
+    transition: .25s ease;
+}
+
+/*Formatação Inicio*/
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#intro *{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#intro{
+    margin-top: 9em;
+}
+
+#first_Section{
+    height: 78em;
+    padding: 125px;
+    background-image: url(./Tech\ Background_3.png);
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+}
+
+h1{
+    font-size: 6em;
+    display: flex;
+    justify-content: center;
+}
+
+#first_Section .h2{
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+#dzn{
+    padding-top: 20px;
+    padding-right: 320px;
+}
+
+#prog{
+    padding-left: 242px; 
+}
+
+.title{
+    margin-top: 3em;
+    border: solid red 3px;
+    background-color: aquamarine;
+    color: white;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+}
